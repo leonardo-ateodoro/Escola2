@@ -1,5 +1,6 @@
 import pytest
 from escola import verificador_media
+
 @pytest.mark.parametrize(
     ("media", "resultado_esperado"), [
 
